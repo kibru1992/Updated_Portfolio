@@ -19,6 +19,22 @@ p {
   color: rgb(85, 85, 85);
 }
 
+/* Professional Link Styling */
+.professional-link {
+    color: #1a1a1a; /* Professional green - you can change this to match your site's color scheme */
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: all 300ms ease;
+    padding-bottom: 2px;
+}
+
+.professional-link:hover {
+    border-bottom-color: #000000;
+    text-decoration: none;
+    color:  #000000; /* Slightly darker on hover */
+}
+
 /* TRANSITION */
 
 a,
