@@ -2,314 +2,246 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- SEO Meta Tags -->
-  <title>Kibru Abebe - Software Engineer & AI Researcher</title>
+  <meta charset="utf-8">
+  <title>Kibru Abebe | Charles University</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description"
-    content="Kibru Abebe - Software Engineer, AI Researcher and Tech Blogger specializing in software architecture, machine learning, and innovative technology solutions.">
-  <meta name="keywords"
-    content="software engineer, AI researcher, machine learning, web development, Ethiopia, Kibru Abebe">
+    content="Kibru Abebe - AI Master's Student at Charles University, Founder of Ethiopian Researchers Institute, and Software Engineer.">
   <meta name="author" content="Kibru Abebe">
-  <meta name="robots" content="index, follow">
 
-  <!-- Favicon Implementation for Your Files -->
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png">
 
-  <!-- Apple Touch Icon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-
-  <!-- Android/Chrome Icons -->
-  <link rel="icon" type="image/png" sizes="192x192" href="/web-app-manifest-192x192.png">
-  <link rel="icon" type="image/png" sizes="512x512" href="/web-app-manifest-512x512.png">
-
-  <!-- Web App Manifest -->
-  <link rel="manifest" href="/site.webmanifest">
-
-  <!-- Theme Color -->
-  <meta name="theme-color" content="#000000">
-
-  <!-- Open Graph Tags -->
-  <meta property="og:title" content="Kibru Abebe - Software Engineer & AI Researcher">
-  <meta property="og:description"
-    content="Software Engineer, AI Researcher and Tech Blogger specializing in innovative technology solutions.">
-  <meta property="og:image" content="./assets/profile-pic.png">
-  <meta property="og:url" content="https://kibruabebe.com">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Kibru Abebe Portfolio">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Kibru Abebe - Software Engineer & AI Researcher">
-  <meta name="twitter:description" content="Software Engineer, AI Researcher and Tech Blogger">
-  <meta name="twitter:image" content="./assets/profile-pic.png">
-
-  <title>Kibru Abebe</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="mediaqueries.css" />
+  <!-- Custom Academic CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <nav id="desktop-nav">
-    <div class="logo">Kibru Abebe</div>
-    <div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
+  <!-- Minimalist Top Navigation -->
+  <nav class="navbar" aria-label="Main navigation">
+    <a href="#about" class="nav-link">About</a>
+    <a href="#news" class="nav-link">News</a>
+    <a href="#research" class="nav-link">Research</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="./assets/Kibru Mamo.pdf" target="_blank" rel="noopener noreferrer" class="nav-link">CV</a>
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark/light mode">🌙</button>
   </nav>
-  <nav id="hamburger-nav">
-    <div class="logo">Kibru Abebe</div>
-    <div class="hamburger-menu">
-      <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-      </div>
-    </div>
-  </nav>
-  <section id="profile">
-    <div class="section__pic-container">
-      <img src="./assets/profile-pic.png" alt="Kibru Abebe profile picture" />
-    </div>
-    <div class="section__text">
-      <p class="section__text__p1">Hello, I'm</p>
-      <h1 class="title">Kibru Abebe</h1>
-      <p class="section__text__p2">Software Engineer | AI Researcher | Tech Blogger </p>
-      <div class="btn-container">
-        <button class="btn btn-color-2" onclick="window.open('./assets/kibrucv.pdf')">
-          Download CV
-        </button>
-        <button class="btn btn-color-1" onclick="location.href='./#contact'">
-          Contact Info
-        </button>
-      </div>
-      <div id="socials-container">
-        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
-          onclick="location.href='https://www.linkedin.com/in/kibru-abebe-96bb93203/'" />
-        <img src="./assets/github.png" alt="My Github profile" class="icon"
-          onclick="location.href='https://github.com/kibru1992'" />
-      </div>
-    </div>
-  </section>
-  <section id="about">
-    <p class="section__text__p1">Get To Know More</p>
-    <h1 class="title">About Me</h1>
-    <div class="section-container">
-      <div class="section__pic-container">
-        <img src="./assets/kib.png" alt="Profile picture" class="about-pic" />
-      </div>
-      <div class="about-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
-            <h3>Experience</h3>
-            <p>AI Researcher | Software Engineer</p>
-          </div>
-          <div class="details-container">
-            <img src="./assets/education.png" alt="Education icon" class="icon" />
-            <h3>Education</h3>
-            <p>B.Sc. Bachelors Degree<br />Software Engineering</p>
-          </div>
-        </div>
-        <div class="text-container">
-          <p>
-            <b>Founder and AI Researcher</b> at <b><a href="https://ethioresearch.org/" target="_blank"
-                class="professional-link">Ethiopian Researchers</a></b>. <b>Software Engineer at INSA(Information
-              Network Security Administration of Ethiopian).</b>
-            specialize in software architecture and design, with a distinguished academic record and practical
-            experience.
-            graduated in Software Engineering with a distinction from jimma university. Proficient in various
-            programming languages
-            and frameworks, with a solid background in system architecture design, database management, and team
-            leadership.
-            Experienced in creating dynamic software architecture and design using different technology tools.
-            Interested in AI(artificial intelligence),
-            ML(machine learning) and cyber security. A leader in project management and cross-functional collaboration.
-            Committed to continuous learning, innovative problem-solving, and very committed and discipline
-            for tasks to achieve my goal.
-          </p>
-        </div>
-      </div>
-    </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
-  </section>
 
-  <section id="experience">
-    <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Experience</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container">
-          <h2 class="experience-sub-title">Development</h2>
-          <div class="article-container">
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>HTML</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>CSS</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>JavaScript</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>React</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Git</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Node js</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-          </div>
-        </div>
-        <div class="details-container">
-          <h2 class="experience-sub-title">Research</h2>
-          <div class="article-container">
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Artifical intelligence</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Machine learning</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Deep Learning</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Generative AI</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-          </div>
-        </div>
+  <!-- About Section -->
+  <div id="about" class="about-section">
+    <!-- Left Column: Headshot & Contact Links -->
+    <div class="about-left">
+      <img src="./assets/profile-pic.png" class="about-headshot" alt="Kibru Abebe Profile Photo">
+      <h1 class="profile-name">Kibru Abebe</h1>
+      <p class="profile-email"><a href="mailto:kibruabebe14@gmail.com">kibruabebe14@gmail.com</a></p>
+
+      <div class="social-links">
+        <a href="https://independent.academia.edu/KIBRUABEBE2" target="_blank" rel="noopener noreferrer"
+          class="social-link" title="Academia.edu / Research Profile" aria-label="Academia">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12 2L1 7l11 5 9-4.09V17h2V7L12 2zm0 8.18L4.24 7 12 3.45 19.76 7 12 10.18zM5 11.08v4.94C6.88 17.65 9.3 18.5 12 18.5s5.12-.85 7-2.48v-4.94C17.3 12.55 14.8 13.5 12 13.5s-5.3-.95-7-2.42z" />
+          </svg>
+        </a>
+        <a href="https://github.com/kibru1992" target="_blank" rel="noopener noreferrer" class="social-link"
+          title="GitHub Profile" aria-label="GitHub">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/kibru-abebe-96bb93203/" target="_blank" rel="noopener noreferrer"
+          class="social-link" title="LinkedIn Profile" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+          </svg>
+        </a>
       </div>
     </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
-  </section>
-  <section id="projects">
-    <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Services</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/oie1.jpg" alt="Project 1" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">Tech consultant</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://t.me/habesha_research'">
-              Telegram
-            </button>
 
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/oie.jpg" alt="Project 2" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">Portfolio Design</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kibru1992'">
-              Github
-            </button>
+    <!-- Right Column: Personal Bio -->
+    <div class="about-right">
+      <p class="about-bio">
+        I am an AI Master's student at <a href="https://cuni.cz/UKEN-1.html" target="_blank"
+          rel="noopener noreferrer">Charles University</a> in Prague, Czech Republic, working in the intersection of
+        Machine Learning and Deep Learning. I am also the Founder and Lead AI Researcher at the <a
+          href="https://ethioresearch.org/" target="_blank" rel="noopener noreferrer">Ethiopian Researchers
+          Institute</a>, leading collaborative research initiatives and mentoring students. Prior to Charles University,
+        I earned my Bachelor's in Software Engineering from <a href="https://ju.edu.et/" target="_blank"
+          rel="noopener noreferrer">Jimma University</a>, Ethiopia. I have worked as a Software Engineer at <a
+          href="https://www.insa.gov.et/" target="_blank" rel="noopener noreferrer">INSA</a> (Information Network
+        Security Administration of Ethiopia) focusing on software and system architecture, and as a software engineer
+        intern at Abronal Technologies.
+      </p>
+    </div>
+  </div>
 
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/oi.jpg" alt="Project 3" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">AI Research</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://independent.academia.edu/KIBRUABEBE2'">
-              Academia
-            </button>
+  <!-- News Section -->
+  <div id="news"></div>
+  <h2 class="section-header">News</h2>
+  <ul class="academic-list">
+    <li>
+      <span class="list-date">Sep 2026</span>
+      Began <b>Master of Science in Artificial Intelligence</b> at <b>Charles University</b>, Prague, Czech Republic.
+    </li>
+    <li>
+      <span class="list-date">2026</span>
+      Co-authored research paper: <i>"Spatial and Semantic Control in 2D Diffusion Models"</i> with Yordanos Tefera,
+      Bemnet Aschalew, Kalkidan Tadesse, Mahlet Assefa, and Biruk Abere.
+    </li>
+    <li>
+      <span class="list-date">Mar 2025</span>
+      Joined <b>INSA</b> (Information Network Security Administration of Ethiopia) as <b>Software Engineer</b>, focusing
+      on system architecture, Java/Spring Boot development, and secure database management.
+    </li>
+    <li>
+      <span class="list-date">Feb 2025</span>
+      Founded <b><a href="https://ethioresearch.org/" target="_blank" rel="noopener noreferrer">Ethiopian Researchers
+          Institute</a></b>, leading institutional AI research, academic collaborations, and mentorship.
+    </li>
+    <li>
+      <span class="list-date">2024</span>
+      Co-authored research papers: <i>"Pneumonia Detection and Follow up"</i> and <i>"Web and Smart Card System for
+        Infant Immunization"</i>.
+    </li>
+    <li>
+      <span class="list-date">Jun 2024</span>
+      Completed <b>Bachelor of Science in Software Engineering</b> from Jimma University.
+    </li>
+    <li>
+      <span class="list-date">Jun 2023</span>
+      Software Engineer Intern at <b>Abronal Technologies PLC</b>, designing and implementing document management
+      system.
+    </li>
+  </ul>
 
-          </div>
-        </div>
+  <!-- Research & Publications Section (Directly from CV) -->
+  <div id="research"></div>
+  <h2 class="section-header">Research</h2>
+
+  <!-- Publication 1: Diffusion Models -->
+  <div class="project-row">
+    <div class="project-media">
+      <img src="./assets/diffusion-models.jpg" class="project-thumb"
+        alt="Spatial and Semantic Control in 2D Diffusion Models">
+    </div>
+    <div class="project-details">
+      <p class="project-title">Spatial and Semantic Control in 2D Diffusion Models</p>
+      <p class="project-authors">Yordanos Tefera, Bemnet Aschalew, Kalkidan Tadesse, <strong>Kibru Abebe</strong>,
+        Mahlet Assefa, Biruk Abere</p>
+      <p class="project-venue">Research Publication (2026)</p>
+      <p class="project-desc">
+        Investigates spatial conditioning and cross-attention semantic guidance in 2D diffusion models for controllable
+        multi-object image synthesis and precise layout manipulation.
+      </p>
+      <div class="project-badges">
+        <a href="https://independent.academia.edu/KIBRUABEBE2" target="_blank" rel="noopener noreferrer"
+          class="badge-button">Paper</a>
+        <a href="https://github.com/kibru1992" target="_blank" rel="noopener noreferrer" class="badge-button">Code</a>
       </div>
     </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
-  </section>
-  <section id="contact">
-    <p class="section__text__p1">Get in Touch</p>
-    <h1 class="title">Contact Me</h1>
-    <div class="contact-info-upper-container">
-      <div class="contact-info-container">
-        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
-        <p><a href="mailto:kibruabebe14@gmail.com">contact us</a></p>
-      </div>
-      <div class="contact-info-container">
-        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
-        <p><a href="https://www.linkedin.com/in/kibru-abebe-96bb93203/">LinkedIn</a></p>
+  </div>
+
+  <!-- Publication 2: Pneumonia Detection -->
+  <div class="project-row">
+    <div class="project-media">
+      <img src="./assets/pneumonia-ai.jpg" class="project-thumb" alt="Pneumonia Detection and Follow up">
+    </div>
+    <div class="project-details">
+      <p class="project-title">Pneumonia Detection and Follow up</p>
+      <p class="project-authors"><strong>Kibru Abebe</strong>, Natinael Assefa, Remetula Ali, Sagni Alemayo</p>
+      <p class="project-venue">Research Publication (2024)</p>
+      <p class="project-desc">
+        A deep learning and medical imaging framework for automated detection of pneumonia from chest X-ray radiographs,
+        feature localization, and longitudinal clinical follow-up.
+      </p>
+      <div class="project-badges">
+        <a href="https://independent.academia.edu/KIBRUABEBE2" target="_blank" rel="noopener noreferrer"
+          class="badge-button">Paper</a>
+        <a href="https://github.com/kibru1992" target="_blank" rel="noopener noreferrer" class="badge-button">Code</a>
       </div>
     </div>
-  </section>
+  </div>
+
+  <!-- Publication 3: Smart Card System for Infant Immunization -->
+  <div class="project-row">
+    <div class="project-media">
+      <img src="./assets/smart-card-immunization.jpg" class="project-thumb"
+        alt="Web and Smart Card System for Infant Immunization">
+    </div>
+    <div class="project-details">
+      <p class="project-title">Web and Smart Card System for Infant Immunization</p>
+      <p class="project-authors">Mihiretu Tigistu, <strong>Kibru Abebe</strong>, Miretu Jaleta, Kaleab Erdachewu, Kiya
+        Tilahun, Kibru Gebremedhin</p>
+      <p class="project-venue">Research Publication (2024)</p>
+      <p class="project-desc">
+        Design and implementation of a web-based smart card platform for infant immunization tracking, ensuring reliable
+        digital health record management, vaccination schedule compliance, and secure data access.
+      </p>
+      <div class="project-badges">
+        <a href="https://independent.academia.edu/KIBRUABEBE2" target="_blank" rel="noopener noreferrer"
+          class="badge-button">Paper</a>
+        <a href="https://github.com/kibru1992" target="_blank" rel="noopener noreferrer" class="badge-button">System</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects Section (From CV) -->
+  <div id="projects"></div>
+  <h2 class="section-header">Projects</h2>
+
+  <!-- Project 1: Ethiopian Researchers Institute -->
+  <div class="project-row">
+    <div class="project-media">
+      <img src="./assets/oie1.jpg" class="project-thumb" alt="Ethiopian Researchers Institute Platform">
+    </div>
+    <div class="project-details">
+      <p class="project-title"><a href="https://ethioresearch.org/" target="_blank" rel="noopener noreferrer">Ethiopian
+          Researchers Institute Platform</a></p>
+      <p class="project-authors"><strong>Kibru Abebe</strong> (Founder & AI Researcher)</p>
+      <p class="project-venue">ethioresearch.org (02/2025 – Present)</p>
+      <p class="project-desc">
+        Founded and developed the institutional digital portal and collaborative research network connecting Ethiopian
+        scholars, data scientists, and engineers worldwide.
+      </p>
+      <div class="project-badges">
+        <a href="https://ethioresearch.org/" target="_blank" rel="noopener noreferrer" class="badge-button">Website</a>
+        <a href="https://t.me/habesha_research" target="_blank" rel="noopener noreferrer"
+          class="badge-button">Telegram</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 2: Document Management System (Abronal Technologies) -->
+  <div class="project-row">
+    <div class="project-media">
+      <img src="./assets/oie.jpg" class="project-thumb" alt="Document Management System for Siddama Trade Office">
+    </div>
+    <div class="project-details">
+      <p class="project-title">Document Management System</p>
+      <p class="project-authors"><strong>Kibru Abebe</strong>, Software Engineering Team</p>
+      <p class="project-venue">Abronal Technologies PLC (06/2023 – 08/2023)</p>
+      <p class="project-desc">
+        Collected system requirements, designed full system and relational database architectures, and implemented a
+        document management and archiving software system for the regional trade office.
+      </p>
+      <div class="project-badges">
+        <a href="https://github.com/kibru1992" target="_blank" rel="noopener noreferrer"
+          class="badge-button">Architecture</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Simple Academic Footer -->
   <footer>
-    <nav>
-      <div class="nav-links-container">
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <p>Copyright &#169; 2025 Kibru Abebe. All Rights Reserved.</p>
+    <p>Template inspired by <a href="https://gemmechu.github.io/" target="_blank" rel="noopener noreferrer">Gemmechu
+        Hassena</a> | Built by Kibru Abebe</p>
   </footer>
+
+  <!-- Clean Theme Toggle Script -->
   <script src="script.js"></script>
 </body>
 
